@@ -1,0 +1,7 @@
+machine:
+  ruby:
+    version: 2.3.0
+  services:
+    - redis
+  environment:
+    SIDEKIQ_VERSION: ~> 4.0
